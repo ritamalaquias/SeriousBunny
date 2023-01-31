@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://assets/new_dynamicfont.tres" type="DynamicFont" id=1]
+
+[node name="Title" type="Label"]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -67.5
+margin_top = 54.7653
+margin_right = 67.5
+margin_bottom = 83.7653
+custom_fonts/font = ExtResource( 1 )
+text = "Bunny Game"
+align = 1
