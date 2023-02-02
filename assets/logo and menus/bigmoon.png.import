@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/subject6112_logo.png-50e5dca3bcb542f3cbc77d125746436a.stex"
+path="res://.import/bigmoon.png-a157c889f1cd0a4ae21cef09bdfd4563.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/subject6112_logo.png"
-dest_files=[ "res://.import/subject6112_logo.png-50e5dca3bcb542f3cbc77d125746436a.stex" ]
+source_file="res://assets/logo and menus/bigmoon.png"
+dest_files=[ "res://.import/bigmoon.png-a157c889f1cd0a4ae21cef09bdfd4563.stex" ]
 
 [params]
 
