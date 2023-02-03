@@ -15,8 +15,8 @@ extents = Vector2( 12.2186, 2.25687 )
 [node name="Player" type="KinematicBody2D"]
 collision_mask = 4
 script = ExtResource( 1 )
-speed = Vector2( 700, 1350 )
-stomp_impulse = 1600.0
+speed = Vector2( 500, 1350 )
+stomp_impulse = 800.0
 
 [node name="Metroid1" type="Sprite" parent="."]
 position = Vector2( 0, -11 )
