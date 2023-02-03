@@ -5,6 +5,10 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Hello, wazzup"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
 		}
 	],
 	"metadata": {
