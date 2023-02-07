@@ -16,8 +16,9 @@ func _ready() -> void:
 	update_interface()
 
 func _on_Player_died() -> void:
-	self.paused = true
 	title_label.text = MESSAGE_DIED
+	scene_tree.paused = true
+	pause_overlay.visible = true
 
 func _unhandled_input(event: InputEvent) -> void:
 	if event.is_action_pressed("pause") and title_label.text != MESSAGE_DIED:
