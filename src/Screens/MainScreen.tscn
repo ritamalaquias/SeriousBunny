@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://assets/ui_theme.tres" type="Theme" id=1]
 [ext_resource path="res://assets/background.png" type="Texture" id=2]
@@ -7,6 +7,7 @@
 [ext_resource path="res://src/UserInterface/QuitButton.tscn" type="PackedScene" id=5]
 [ext_resource path="res://assets/logo and menus/logo_v2.png" type="Texture" id=6]
 [ext_resource path="res://assets/logo and menus/bigmoon.png" type="Texture" id=7]
+[ext_resource path="res://assets/backgroundtest.png" type="Texture" id=8]
 
 [sub_resource type="Animation" id=2]
 length = 0.001
@@ -74,6 +75,13 @@ anchor_bottom = 1.0
 texture = ExtResource( 2 )
 expand = true
 stretch_mode = 2
+
+[node name="Backgroundtest" type="TextureRect" parent="TextureRect"]
+modulate = Color( 1, 0.773438, 0, 1 )
+margin_right = 646.0
+margin_bottom = 504.0
+texture = ExtResource( 8 )
+expand = true
 
 [node name="Bigmoon" type="TextureRect" parent="."]
 margin_left = 210.0

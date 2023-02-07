@@ -20,7 +20,9 @@ margin_bottom = 1079.0
 texture = ExtResource( 3 )
 
 [node name="Title" parent="." instance=ExtResource( 4 )]
-text = "You win!"
+margin_top = -99.0
+margin_bottom = 254.0
+text = "You win! You reached the moon!"
 
 [node name="Result" type="Label" parent="."]
 anchor_right = 1.0

@@ -4,8 +4,8 @@
 [ext_resource path="res://assets/portal.png" type="Texture" id=2]
 
 [sub_resource type="CapsuleShape2D" id=1]
-radius = 83.0
-height = 93.4486
+radius = 15.9233
+height = 22.7801
 
 [sub_resource type="Animation" id=2]
 resource_name = "START"
@@ -45,11 +45,12 @@ script = ExtResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="."]
 modulate = Color( 1, 1, 1, 0.6 )
-position = Vector2( 0, -130 )
+position = Vector2( -0.507412, -23.0212 )
+scale = Vector2( 0.194796, 0.194796 )
 texture = ExtResource( 2 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( 0, -130 )
+position = Vector2( -1.04865, -21.0168 )
 shape = SubResource( 1 )
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]

@@ -32,8 +32,8 @@ mouse_filter = 2
 color = Color( 0, 0, 0, 0.321569 )
 
 [node name="Title" parent="PauseOverlay" instance=ExtResource( 3 )]
-margin_top = 150.0
-margin_bottom = 320.0
+margin_top = -56.0
+margin_bottom = 114.0
 text = "Paused"
 
 [node name="PauseMenu" type="VBoxContainer" parent="PauseOverlay"]
@@ -42,19 +42,21 @@ anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
 margin_left = -135.0
-margin_top = -135.0
+margin_top = -119.0
 margin_right = 135.0
-margin_bottom = 135.0
+margin_bottom = 151.0
 
 [node name="RetryButton2" parent="PauseOverlay/PauseMenu" instance=ExtResource( 4 )]
+margin_right = 270.0
+margin_bottom = 84.0
 
 [node name="MainScreenButton" parent="PauseOverlay/PauseMenu" instance=ExtResource( 5 )]
-margin_top = 91.0
-margin_right = 274.0
-margin_bottom = 178.0
+margin_top = 92.0
+margin_right = 270.0
+margin_bottom = 177.0
 text = "Back to Main Screen"
 
 [node name="QuitButton" parent="PauseOverlay/PauseMenu" instance=ExtResource( 6 )]
-margin_top = 182.0
-margin_right = 274.0
+margin_top = 185.0
+margin_right = 270.0
 margin_bottom = 270.0
